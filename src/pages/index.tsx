@@ -301,10 +301,10 @@ export default function Home() {
                               <p className="font-bold">
                                 <ul>
                                   <li>Service Charge: {Math.round(values.serviceCharge / 12)}</li>
-                                  <li>Ground Rent: {values.groundRent / 12}</li>
-                                  <li>Landlord Insurance: {values.landlordInsurance / 12}</li>
-                                  <li>Agency Fees: {(values.rent * values.agencyFees) / 100}</li>
-                                  <li>Agency Fees Tax: {(((values.rent * values.agencyFees) / 100) * values.agencyFeesTax) / 100}</li>
+                                  <li>Ground Rent: {Math.round(values.groundRent / 12)}</li>
+                                  <li>Landlord Insurance: {Math.round(values.landlordInsurance / 12)}</li>
+                                  <li>Agency Fees: {Math.round((values.rent * values.agencyFees) / 100)}</li>
+                                  <li>Agency Fees Tax: {Math.round((((values.rent * values.agencyFees) / 100) * values.agencyFeesTax) / 100)}</li>
                                 </ul>
                                 <hr />
                                 Monthly Income: £
