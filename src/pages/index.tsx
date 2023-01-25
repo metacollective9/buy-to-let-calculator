@@ -68,10 +68,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main className="flex justify-center">
         <div>
-          <section className="gradient-form bg-gray-200 p-10">
-            <div className="container py-1 px-6">
+          <section className="gradient-form bg-gray-200 p-4">
+            <div className="container py-1 px-3">
               <div className="flex flex-wrap g-6 text-gray-800">
                 <div className="">
                   <div className="block bg-white shadow-lg rounded-lg">
@@ -79,7 +79,7 @@ export default function Home() {
                       <div className="px-4 md:px-0">
                         <div className="md:p-12 md:mx-6">
                           <div className="text-center">
-                            <h4 className="text-xl font-semibold mt-1 mb-4 pb-1">
+                            <h4 className="text-xl font-semibold mt-1 mb-4 pb-1 pt-4">
                               Buy-To-Let Calculator
                             </h4>
                             <hr className="pb-4" />
