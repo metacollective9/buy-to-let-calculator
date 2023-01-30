@@ -96,7 +96,8 @@ export default function Home() {
                               Cost of property
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Cost of the property"
                               name="cost"
@@ -112,7 +113,8 @@ export default function Home() {
                               Deposit Amount
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Deposit"
                               name="deposit"
@@ -128,7 +130,8 @@ export default function Home() {
                               Mortgage interest (%){" "}
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Mortgage interest"
                               name="interest"
@@ -144,7 +147,8 @@ export default function Home() {
                               Mortgage Length (in Years)
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Mortgage Length (in Years)"
                               name="mortgageTerm"
@@ -189,7 +193,8 @@ export default function Home() {
                               Service Charge (Yearly)
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Service Charge"
                               name="serviceCharge"
@@ -206,7 +211,8 @@ export default function Home() {
                               Ground Rent (Yearly)
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Ground Rent"
                               name="groundRent"
@@ -223,7 +229,8 @@ export default function Home() {
                               Monthly Rent
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Rent"
                               name="rent"
@@ -240,7 +247,8 @@ export default function Home() {
                               Agency Fees (%)
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Agency Fees (in %)"
                               name="agencyFees"
@@ -257,7 +265,8 @@ export default function Home() {
                               Agency Fees VAT/Tax (%)
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Agency Fees (in %)"
                               name="agencyFeesTax"
@@ -274,7 +283,8 @@ export default function Home() {
                               Landlord Insurance (Yearly)
                             </label>
                             <input
-                              type="text"
+                              type="number"
+                              step="any"
                               className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                               placeholder="Agency Fees (in %)"
                               name="landlordInsurance"
